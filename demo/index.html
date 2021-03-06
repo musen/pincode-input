@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pincode-input@0.1.0/dist/pincode-input.min.css" />
+    <title>Pincode Input Demo</title>
+    <style>
+      .demo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 50vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="demo">
+      <div class="pincode-input-container"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/pincode-input@0.1.0/dist/pincode-input.min.js"></script>
+    <script>
+      new PincodeInput('.pincode-input-container', {
+        count: 4,
+        secure: true,
+        previewDuration: 200,
+        onInput: (value) => {
+          console.log(value)
+        }
+      })
+    </script>
+  </body>
+</html>

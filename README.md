@@ -4,7 +4,7 @@ A very useful pure javascript library to creating pin code inputs.
 
 Inspired by [vue-pincode-input](https://github.com/Seokky/vue-pincode-input)
 
-[Demo](https://dgknca.github.io/pincode-input/)
+[Demo](https://dgknca.github.io/pincode-input/) | [Codepen](https://codepen.io/dgknca/pen/poNOdXp)
 
 ## Install
 

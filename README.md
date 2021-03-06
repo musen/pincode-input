@@ -4,6 +4,8 @@ A very useful pure javascript library to creating pin code inputs.
 
 Inspired by [vue-pincode-input](https://github.com/Seokky/vue-pincode-input)
 
+[Demo](https://dgknca.github.io/pincode-input/)
+
 ## Install
 
 ```bash
@@ -45,7 +47,7 @@ new PincodeInput('#demo', {
 ## Parameters
 
 | Name            | Type    | Default | Description                                                            |
-| --------------- | ------- | ------- | ---------------------------------------------------------------------- |
+| :-------------- | :------ | :------ | :--------------------------------------------------------------------- |
 | count           | number  | 4       | Count of the cells.                                                    |
 | secure          | boolean | false   | Set to `true` to use the inputs with `type="password"`                 |
 | previewDuration | number  | 200     | Duration of the character preview. Valid when used with `secure: true` |
@@ -53,5 +55,5 @@ new PincodeInput('#demo', {
 ## Events
 
 | Name    | Description            |
-| ------- | ---------------------- |
+| :------ | :--------------------- |
 | onInput | Returns current value. |
